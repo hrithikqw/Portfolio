@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+    <div class="hero-header">
+        <div class="wrapper">
+            <header>
+                <div class="logo">
+                    <i class="fa-solid fa-hand-peace"></i> <!-- Replaced 'fa-H' with a valid icon 'fa-code' -->
+                    <div class="logo-text">HRITHIK</div>
+                </div>
+                <nav>
+                    <ul class="navlinks">
+                        <li><a href="about.html">About Me</a></li>
+                        <li><a href="project.html">Projects</a></li>
+                        <li><a href="https://drive.google.com/file/d/101yao2QZ8PPZm-0VX0auoaFAXgIgiLC8/view?usp=drive_link">Resume</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="container">
+                <div class="hero-pic">
+                    <img src="images/main_photo.jpg" alt="profile pic">
+                </div>
+                <div class="hero-text">
+                    <h1 class="home__title">Hi,<br>I'm <span class="home__title-color">Hrithik</span></h1>
+                    <h5>A <span class="input"></span></h5>
+                    <p>Hi! I'm Hrithik Roshan, a pre-final year Computer Science student at Sathyabama University, Chennai, as a Computer Science undergrad, fueled by curiosity and a love for tech. I'm passionate about diving deep into coding, algorithms, and emerging innovations. I'm actively looking for internships to apply my knowledge and gain real-world experience.</p>
+                    <div class="btn-group">
+                        <a href="https://drive.google.com/file/d/101yao2QZ8PPZm-0VX0auoaFAXgIgiLC8/view?usp=drive_link" class="btn active">Download CV</a>
+                        <a href="mailto:Hrithikm485@gmail.com" class="btn">Contact</a>
+                    </div>
+                    <div class="social">
+                        <a href="https://github.com/hrithikqw"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/hrithik-roshan-65145718b/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com"><i class="fa-brands fa-discord"></i></a>
+                        <a href="#"><i class="fa-brands fa-dev"></i></a>
+                        <a href="#"><i class="fa-brands fa-pintrest"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Typed.js for typing text effect -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
+    <script>
+        var typed = new Typed(".input", {
+            strings: ["Student", "Python Developer","Java Developer"],
+            typeSpeed: 50,
+            backSpeed: 20,
+            loop: true
+        });
+    </script>
+
+    <footer>
+        <p>&copy; 2024 Hrithik Roshan. All Rights Reserved.</p>
+    </footer>
+    <!-- Your other HTML content here -->
+</body>
+</html>
